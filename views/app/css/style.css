@@ -1,0 +1,53 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #243447;
+  color: #FAB81E;
+}
+
+.pais{
+  border-bottom: 1px solid gray;
+}
+
+a:link{
+  list-style: none;
+  text-decoration: none;
+  color: #FAB81E;
+}
+a:hover{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+    color: #FAB81E;
+}
+a:visited:hover{
+  color: white;
+}
+p{
+  margin-top: 1px;
+}
+h4{
+  color:white;
+}
+.container {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.col{
+  width: 40%;
+  text-align: justify;
+}
+
+.right{
+  text-align: left;
+}
